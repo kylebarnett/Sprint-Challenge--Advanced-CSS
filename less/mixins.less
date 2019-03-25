@@ -1,1 +1,24 @@
 // Mixins Here
+.nav-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: @nav-bg;
+  border: @nav-border;
+  text-align: center;
+}
+
+.header-name {
+  .nav-header;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items {
+  .navbar;
+  font-size: 18px;
+  margin: 15px;
+}
