@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+  Start here
+
 2. Describe what it means to be mobile first vs desktop first.
+
+  Start here
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+  Start here
+
 4. How would you describe preprocessing to someone new to CSS?
 
+  Start here
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+  Start here
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
