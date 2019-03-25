@@ -22,3 +22,17 @@
   font-size: 18px;
   margin: 15px;
 }
+
+.sign-up-button(@back-color, @font-size, @color){
+  background-color: @back-color;
+  font-size: @font-size;
+  color: @color;
+  width: 30%;
+  border-radius: 4px; 
+  text-align: center;
+  cursor: pointer;
+  &:hover{
+    color: black;
+    background-color: white;
+  }
+}
