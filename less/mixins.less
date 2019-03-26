@@ -1,36 +1,32 @@
 // Mixins Here
-.nav-header {
+.flex-center(@flow: column, @jcenter: center) {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: @nav-bg;
-  border: @nav-border;
-  text-align: center;
+  justify-content: @jcenter;
+  align-items: center;
+  flex-direction: @flow;
 }
 
-.header-name {
-  .nav-header;
-}
-
-.navbar {
+.flex-between(@flow: row, @space: space-between) {
   display: flex;
-  justify-content: center;
+  justify-content: @space;
+  align-items: space-between;
+  flex-direction: @flow;
 }
 
-.nav-items {
-  .navbar;
-  font-size: 18px;
-  margin: 15px;
-}
-
-.sign-up-button(@back-color, @font-size, @color){
+.sign-up(@back-color, @font-size, @color){
   background-color: @back-color;
   font-size: @font-size;
   color: @color;
   width: 30%;
+  padding: 8px;
   border-radius: 4px; 
   text-align: center;
   cursor: pointer;
+
+  @media @phone {
+    width: 100%;
+    padding: 15px;
+  }
   &:hover{
     color: black;
     background-color: white;
