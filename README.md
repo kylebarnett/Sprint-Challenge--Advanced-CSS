@@ -34,23 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-  Start here
+  Adaptive-website adjusts to breakpoint (media queries), layout may still be hard coded widths, will still see this approach in many sites today
+
+  Responsive-uses both breakpoints and responsive units, a blend of all the positive traits of fixed, fluid, and adaptive, industry standard today.
 
 2. Describe what it means to be mobile first vs desktop first.
 
-  Start here
+  Mobile first you code that device first (usually 500px) and you use min-width instead of max-width for desktop first.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
-  Start here
+  This is the conversion in order to get to rem units. From here you can put 1.2rem or whatever you'd like for font sizes.
 
 4. How would you describe preprocessing to someone new to CSS?
 
-  Start here
+  Preprocessing/preprocessor takes files and reads through them and will write out CSS for you. LESS is using node as the compiler and writes out CSS files on the other side
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-  Start here
+  What gives me the most trouble are mixins but I'm slowly coming around to them. But I see the power in using preprocessors to make life much easier.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
