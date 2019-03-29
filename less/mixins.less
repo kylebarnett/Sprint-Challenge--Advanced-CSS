@@ -1,1 +1,34 @@
 // Mixins Here
+.flex-center(@flow: column, @jcenter: center) {
+  display: flex;
+  justify-content: @jcenter;
+  align-items: center;
+  flex-direction: @flow;
+}
+
+.flex-between(@flow: row, @space: space-between) {
+  display: flex;
+  justify-content: @space;
+  align-items: space-between;
+  flex-direction: @flow;
+}
+
+.sign-up(@back-color, @font-size, @color){
+  background-color: @back-color;
+  font-size: @font-size;
+  color: @color;
+  width: 30%;
+  padding: 8px;
+  border-radius: 4px; 
+  text-align: center;
+  cursor: pointer;
+
+  @media @phone {
+    width: 100%;
+    padding: 15px;
+  }
+  &:hover{
+    color: black;
+    background-color: white;
+  }
+}
